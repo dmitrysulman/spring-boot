@@ -1,5 +1,5 @@
 /*
- * Copyright 2012-2024 the original author or authors.
+ * Copyright 2012-2025 the original author or authors.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -34,6 +34,9 @@ import org.gradle.api.publish.maven.plugins.MavenPublishPlugin;
  *
  * When the {@link AntoraPlugin} is applied, the conventions in {@link AntoraConventions}
  * are applied.
+ *
+ * When the {@code org.jetbrains.kotlin.jvm} plugin is applied, the conventions in
+ * {@link KotlinConventions} are applied.
  *
  * @author Andy Wilkinson
  * @author Christoph Dreis
